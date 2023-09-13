@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(195, 198, 193);
+}
+
+.chatbot-interface {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+}
+
+.bot-face {
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.robot-img {
+  height: 50vh;
+  border-radius: 0.5rem;
+}
+
+.chat-container {
+  margin-top: 2vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.chat-form {
+  display: flex;
+}
+
+.chat-input {
+  width: 40vw;
+  font-size: 1.5em;
+  padding: 1rem;
+}
+
+.btn-chat-send {
+  width: 10vw;
+  font-size: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chatbox-container {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+.chatbox {
+  width: 50vw;
+  max-height: 30vh;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 1.2em;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: rgb(255, 255, 255);
+}
+
+.chat-item {
+  color: black;
+}
+
+.chat-item-user {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  text-align: left;
+  background: lightgreen;
+  padding: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 0.25rem;
+  width: 50%;
+  margin: 0.5rem 0;
+}
+
+.chat-bot-icon-container {
+  padding: 0.5rem;
+}
+
+.chat-bot-icon {
+  width: 20%;
+  height: auto;
+  border-radius: 1.5rem;
+  box-shadow: 0.2rem 0.1rem 0.5rem rgb(97, 148, 180);
+}
+
+.chat-item-bot {
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
+  background: lightskyblue;
+  padding: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 0.25rem;
+  width: 75%;
+  margin: 0.5rem 0;
+}

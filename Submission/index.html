@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Chatbot</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="chatbot-interface">
+      <div class="bot-face">
+        <img class="robot-img" src="images/Robot_Skydive.jpeg" alt="A robot" />
+      </div>
+
+      <div class="chat-container">
+        <form id="chat-form" class="chat-form">
+          <input
+            id="chat-input"
+            class="chat-input"
+            type="text"
+            placeholder="Talk to the bot ..."
+            autocomplete="off"
+          />
+          <button class="btn-chat-send" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="chatbox-container">
+        <div id="chatbox" class="chatbox">
+          <div class="chat-item chat-item-bot">
+            <div class="chat-bot-icon-container">
+              <img
+                class="chat-bot-icon"
+                src="images/Robot_Skydive.jpeg"
+                alt="chat bot icon"
+              />
+            </div>
+            Kia Ora bro!! <br />Welcome to the New Zealand Adrenaline Bot, my
+            name is Rory! <br />I will help you find the right action-packed
+            activity in New Zealand. <br />If you ever get stuck please type
+            'help' for more information or 'restart' to come back to the start.
+            <br />Who is the adrenaline junky on the other side?
+            <br /><br />Please type your first name.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/index.js" type="module"></script>
+  </body>
+</html>
